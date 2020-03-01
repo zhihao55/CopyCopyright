@@ -56,7 +56,7 @@ class CopyCopyright_Plugin implements Typecho_Plugin_Interface{
     /* 插件实现方法 */
     public static function header(){
         $Path = Helper::options()->pluginUrl . '/CopyCopyright/';
-        echo '<script src=" https://code.jquery.com/jquery-3.1.1.min.js"></script>';
+        echo '<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>';
         echo '<script src="' . $Path . 'js/style.js" type="text/javascript"></script>';
 		echo '<script src="https://cdn.bootcss.com/toastr.js/latest/js/toastr.min.js"></script>
         <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/toastr.js/latest/css/toastr.min.css">';
